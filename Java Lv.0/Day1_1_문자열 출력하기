@@ -1,0 +1,48 @@
+// 내 코드
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.next();
+        if(1<= str.length() && str.length() <= 1000000){
+            System.out.println(str);
+        }
+    }
+}
+
+// 다른 사람의 풀이 1
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.next();
+        int a = str.length();
+
+        if(a >= 1 && a <= 1000000) {
+            System.out.println(str);
+        }
+    }
+}
+
+// 다른 사람의 풀이 2
+import java.util.Scanner;
+
+public class Solution {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String str = sc.nextLine();
+
+        if (str.length() > 1 && str.length() < 1000000 && !str.contains(" ")) {
+            System.out.println(str);
+        }
+    }
+}
+
+// 다른 사람의 풀이 3
+public class Solution {
+    public static void main(String[] args) {
+        System.out.print(new java.util.Scanner(System.in).next());
+    }
+}
